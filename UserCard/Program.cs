@@ -21,12 +21,6 @@ namespace UserContact
                 {
                     ContactInfo[num] = args[i];
                 }
-                /* Не могу понять, почему без закомментированной части всё работает, стоит только раскомментировать - работает некорректно
-                 * (логин вводится в одинарных кавычках: 'iov1223')
-                else
-                {
-                    ContactInfo[num] = "Неверный ввод данных.";
-                }*/
             }
             Console.WriteLine(text + ContactInfo[num]);
         }
